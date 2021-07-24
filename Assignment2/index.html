@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/base.css">
+    <title>関東旅行記</title>
+</head>
+
+<body>
+    <header>
+        <div class="box">
+            <h1>関東旅行記</h1>
+        </div>
+    </header>
+
+    <div id="intro">
+        関東旅行の記録です。各地を旅行した際の写真を掲載しています！
+    </div>
+
+    <div id="chizu">
+        <img src="img/kanto.png" width="700" height="600" alt="kanto">
+        <div>
+            <a href="#ura"><h3 id="kasumi">霞ヶ浦</h3></a></p>
+            <a href="#shima"><h3 id="eno">江の島</h3></a> 
+            <a href="#ne"><h3 id="hako">箱根</h3></a>
+        </div>
+    </div>
+
+    
+    <div>
+        <h2 id="ura">茨城県霞ケ浦周辺</h2>
+        <ul class=size>
+            <li><img src="./img/kasumigaura/S__68247593.jpg" width="200"></li>
+            <li><img src="./img/kasumigaura/S__68247595.jpg" width="200"></li>
+            <li> <img src="./img/kasumigaura/S__68247596.jpg" width="200"></li>
+            <li> <img src="./img/kasumigaura/S__68247597.jpg" width="200"></li>
+            <li><img src="./img/kasumigaura/S__68247598.jpg" width="200"></li>
+            <li><img src="./img/kasumigaura/S__68247599.jpg" width="200"></li>
+        </ul>
+    </div>
+    
+    <div>
+        <h2 id="ne">神奈川県箱根周辺</h2>
+        <ul class=size>
+            <li><img src="./img//hakone/S__68247600.jpg" width="200"></li>
+            <li><img src="./img//hakone/S__68247602.jpg" width="200"></li>
+            <li> <img src="./img//hakone/S__68247603.jpg" width="200"></li>
+            <li> <img src="./img//hakone/S__68247604.jpg" width="200"></li>
+            <li><img src="./img//hakone/S__68247605.jpg" width="200"></li>
+            <li><img src="./img//hakone/S__68247606.jpg" width="200"></li>
+        </ul>
+    </div>
+    
+    <div>
+        <h2 id="shima">神奈川県江の島周辺</h2>
+        <ul class=size>
+            <li><img src="img/enoshima/S__68247584.jpg" width="200"></li>
+            <li><img src="img/enoshima/S__68247586.jpg" width="200"></li>
+            <li><img src="img/enoshima/S__68247587.jpg" width="200"></li>
+            <li><img src="img/enoshima/S__68247588.jpg" width="200"></li>
+            <li><img src="img/enoshima/S__68247590.jpg" width="200"></li>
+            <li><img src="img/enoshima/S__68247592.jpg" width="200"></li>
+        </ul>
+    </div>
+    
+    <div class="osusume">
+        <h2>関東おすすめスポット</h2>
+        <p>関東各地のおすすめランキングを紹介します！ボタンを押してみてください！</p>
+        <button type="button" onclick="prefecture(0)">群馬県</button>
+        <button type="button" onclick="prefecture(1)">栃木県</button>
+        <button type="button" onclick="prefecture(2)">茨城県</button>
+        <button type="button" onclick="prefecture(3)">埼玉県</button>
+        <button type="button" onclick="prefecture(4)">東京都</button>
+        <button type="button" onclick="prefecture(5)">神奈川県</button>
+        <button type="button" onclick="prefecture(6)">千葉県</button>
+
+        <div>
+            <p id="result"></p>
+        </div>
+        
+        <p> <a href="https://www.ikyu.com/" target="_blank">一休.com参照</a></p>
+       
+    </div>
+    
+    <footer>
+        Copyright &copy;MIka Ishikawa, All rights reserved.
+    </footer>
+    
+    <script src="js/final.js"></script>
+    
+</body>
+
+
+
+
+
+
+</html>
